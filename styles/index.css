@@ -3,3 +3,95 @@
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+
+/* ==========================
+   MEDIA QUERIES PARA RESPONSIVIDADE
+   ========================== */
+
+/* Estilos para telas menores que 768px (smartphones) */
+@media (max-width: 768px) {
+
+    .container {
+        padding-inline: 16px;
+        /* Reduzir as margens laterais */
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #profile img {
+        width: 140px;
+        height: 140px;
+    }
+
+    #profile>div p {
+        font-size: 14px;
+        line-height: 1.6;
+        background-color: var(--surface-color);
+        /* Fundo destacado */
+        border-radius: 12px;
+        /* Bordas arredondadas */
+        padding: 12px;
+        /* Espaçamento interno */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Sombra suave */
+    }
+
+    #info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    #info li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        background-color: var(--surface-color);
+        /* Fundo destacado */
+        padding: 8px 16px;
+        border-radius: 12px;
+        /* Bordas arredondadas */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Sombra suave */
+    }
+
+    #info li img {
+        width: 24px;
+        height: 24px;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    main img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+}
