@@ -1,6 +1,6 @@
 # ✈️ Perfil de Viagens  
 
-Projeto desenvolvido durante meus estudos na **Rocketseat**, onde construí um **Perfil de Viagens** utilizando HTML, CSS e JavaScript. O objetivo foi praticar a estruturação de páginas web, estilização e interatividade.  
+Projeto desenvolvido durante meus estudos na **Rocketseat**, onde construí um **Perfil de Viagens** utilizando HTML e CSS. O objetivo foi praticar a estruturação de páginas web, estilização e interatividade.  
 
 ![Thumbnail](assets/thumbnail.jpg)  
 
