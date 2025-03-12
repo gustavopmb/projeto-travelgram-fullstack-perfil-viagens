@@ -38,4 +38,4 @@ Este projeto foi desenvolvido para fins educacionais e está sob a licença MIT.
 
 ---
 
-Feito com 💜 por Gustavopmb 🚀
+Feito com 💜 por Gustavopmb by Rocketseat 🚀
